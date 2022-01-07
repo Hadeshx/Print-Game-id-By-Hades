@@ -1,0 +1,5 @@
+local prompt = loadstring(game:HttpGet('https://www.floppa.dev/FakePrompt.lua', true))()
+prompt.createPrompt("Game id is....",game.PlaceId, "Close", true, function(close)
+      print("Button Clicked")
+      close()
+end) -- prompt.createPrompt(title text, message text, button text, blurred, button click callback)  
